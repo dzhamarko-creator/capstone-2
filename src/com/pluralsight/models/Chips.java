@@ -1,6 +1,4 @@
-package com.plurasigh.deli.models;
-
-import com.plurasigh.models.Product;
+package com.pluralsight.models;
 
 public class Chips extends Product {
     public Chips(String flavor) {

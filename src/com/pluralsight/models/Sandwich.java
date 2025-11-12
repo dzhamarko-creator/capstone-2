@@ -3,7 +3,7 @@ package com.pluralsight.models;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Sandwich extends Product {
+public class Sandwich extends com.pluralsight.models.Product {
     private Bread bread;
     private SandwichSize size;
     private boolean toasted;
