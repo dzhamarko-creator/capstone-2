@@ -33,6 +33,6 @@ public class Sandwich extends com.pluralsight.models.Product {
     @Override
     public String toString() {
         return name + (toasted ? " (Toasted)" : "") +
-                " | Fillings: " + toppings + " | ₽" + String.format("%.2f", price);
+                " | Fillings: " + toppings + " | $" + String.format("%.2f", price);
     }
 }

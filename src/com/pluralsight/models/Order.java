@@ -16,11 +16,11 @@ public class Order {
 
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder("Ваш заказ:\n");
+        StringBuilder sb = new StringBuilder("Your Order:\n");
         for (Product item : items)
             sb.append(" - ").append(item).append("\n");
         sb.append("----------------------\n");
-        sb.append(String.format("Итого: ₽%.2f", calculateTotal()));
+        sb.append(String.format("Total: $%.2f", calculateTotal()));
         return sb.toString();
     }
 }
