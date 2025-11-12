@@ -1,0 +1,8 @@
+===== Slavic Deli Receipt =====
+Your Order:
+ - XL WHEAT Pelmenich (Toasted) | Fillings: [Kielbasa, Cabbage] | $11.50
+----------------------
+Total: $11.50
+----------------------------
+Итого: ₽11.50
+Спасибо за покупку!
