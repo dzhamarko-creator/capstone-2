@@ -1,6 +1,6 @@
-package com.plurasigh.models;
+package com.pluralsight.models;
 
-public class Product {
+public abstract class Product {
     protected String name;
     protected double price;
 
@@ -11,4 +11,10 @@ public class Product {
 
     public String getName() { return name; }
     public double getPrice() { return price; }
+    public void setPrice(double price) { this.price = price; }
+
+    @Override
+    public String toString() {
+        return name + " - ₽" + String.format("%.2f", price);
+    }
 }
