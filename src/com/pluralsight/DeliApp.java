@@ -37,7 +37,7 @@ public class DeliApp {
             System.out.println("3) 🥨 Sushki (Chips)");
             System.out.println("4) 🧾 Checkout");
             System.out.println("0) 🚫 Exit");
-            System.out.print("▶ Choose option ▶: ");
+            System.out.print("▶ Choose option : ");
 
             String choice = scanner.nextLine();
 
