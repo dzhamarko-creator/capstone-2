@@ -1,0 +1,10 @@
+===== Slavic Deli Receipt =====
+Your Order:
+ - XL WHEAT Pelmenich (Toasted) | Fillings: [Kielbasa, Cabbage] | $11.50
+ - Kompot (Fruit Drink) (small) - $2.00
+ - Sushki (vanilla) - $1.50
+----------------------
+Total: $15.00
+----------------------------
+Итого: ₽15.00
+Спасибо за покупку!

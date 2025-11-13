@@ -1,0 +1,11 @@
+===== Slavic Deli Receipt =====
+Your Order:
+ - MINI BORODINSKY Pelmenich | Fillings: [Kielbasa, Cabbage] | $6.50
+ - Sushki (vanilla) - $1.50
+ - Sushki (honey) - $1.50
+ - Kvas (Bread Drink) (small) - $2.00
+----------------------
+Total: $11.50
+----------------------------
+Итого: ₽11.50
+Спасибо за покупку!

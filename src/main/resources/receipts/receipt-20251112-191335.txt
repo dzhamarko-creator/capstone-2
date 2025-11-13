@@ -1,0 +1,9 @@
+===== Slavic Deli Receipt =====
+Your Order:
+ - XL WHITE Pelmenich (Toasted) | Fillings: [Kielbasa, Cabbage] | $11.50
+ - Kvas (Bread Drink) (large) - $3.00
+----------------------
+Total: $14.50
+----------------------------
+Итого: ₽14.50
+Спасибо за покупку!
