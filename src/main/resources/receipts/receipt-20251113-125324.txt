@@ -1,0 +1,9 @@
+===== Slavic Deli Receipt =====
+Your Order:
+ - XL WHEAT Pelmenich (Toasted) | Fillings: [🟨 Swiss, 🍗 Chicken, 🧴 Mustard] | $14.50
+ - Kvas (Bread Drink) (large) - $3.00
+----------------------
+Total: $17.50
+----------------------------
+Итого: ₽17.50
+Спасибо за покупку!

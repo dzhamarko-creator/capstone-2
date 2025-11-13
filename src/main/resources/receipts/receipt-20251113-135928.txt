@@ -1,0 +1,8 @@
+===== Slavic Deli Receipt =====
+Your Order:
+ - XL WHITE Pelmenich (Toasted) | Fillings: [] | $8.50
+----------------------
+Total: $8.50
+----------------------------
+Итого: ₽8.50
+Спасибо за покупку!
