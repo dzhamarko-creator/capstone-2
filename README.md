@@ -46,7 +46,7 @@ _The project is organized into clean, modular classes for sandwiches, drinks, to
 <img src="./src/main/resources/Images/Menu.png" width="600" height="400" alt="Home Menu Preview">
 
 
-## ☁︎ Depends on your selection, there' multiple options ☁︎
+## ☁︎ Depends on your selection, there's multiple options ☁︎
 
 <img src="./src/main/resources/Images/Menu2.png" width="600" height="400" alt="Home Menu Preview">
 
