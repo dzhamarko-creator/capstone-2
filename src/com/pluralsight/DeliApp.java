@@ -56,7 +56,7 @@ public class DeliApp {
         }
     }
 
-    // ---------------------- SANDWICH BUILDER -------------------------
+    // ---------------------- SANDWICH ---------------------------
 
     private static Sandwich createSandwich(Scanner scanner) {
         System.out.print("🥖 Bread (BORODINSKY/BLACK_RYE/WHITE/WHEAT): ");
