@@ -10,17 +10,31 @@ public class DeliApp {
         Order order = new Order();
         boolean running = true;
 
-        System.out.println("Добро пожаловать в Slavic Deli!");
-        System.out.println("Выберите, что хотите заказать:");
+        System.out.println("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n" +
+
+                "⠀⠀⢠⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⡄⠀⠀\n" +
+                "⠀⠀⣿⣿⣿⣿⣿⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⢹⣿⣿⣿⣿⡟⣿⣿⣿⣿⣿⠀⠀\n" +
+                "⠀⠀⣿⣿⣿⣿⡟⢸⣿⣿⣿⣿⢹⣿⣿⣿⣿⡘⣿⣿⣿⣿⡇⢻⣿⣿⣿⣿⠀⠀\n" +
+                "⠀⢀⣛⣛⣛⣛⠃⣛⣛⣛⣛⡋⠈⣛⣛⣛⣛⠁⢛⣛⣛⣛⣛⠘⣛⣛⣛⣛⡀⠀\n" +
+                "⠀⠈⠻⠿⠿⠋⣀⠈⠻⠿⠟⢁⡀⠙⠿⠿⠋⢀⡈⠻⠿⠟⠁⣀⠙⠿⠿⠟⠁⠀\n" +
+                "⠀⢸⣷⣦⣶⣿⣿⣿⣶⣤⣶⣿⣿⣷⣦⣴⣾⣿⣿⣶⣤⣶⣿⣿⣿⣶⣴⣾⡇⠀\n" +
+                "⠀⢸⣿⡏⣉⣉⣉⣉⣉⣉⣉⣉⣉⣉⣉⣉⣉⡉⢹⣿⠉⣉⣉⣉⣉⣉⢹⣿⡇⠀\n" +
+                "⠀⢸⣿⡇⣿⠉⢉⣩⣭⣽⣿⣿⣿⣿⣿⣿⣿⡇⢸⣿⠀⣿⣿⣿⣿⣿⢸⣿⡇⠀\n" +
+                "⠀⢸⣿⡇⣿⢀⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⢸⣿⠀⠿⠿⠿⠿⠿⢸⣿⡇⠀\n" +
+                "⠀⢸⣿⡇⣿⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⢸⣿⠀⠶⠶⠶⠶⠶⢸⣿⡇⠀\n" +
+                "⠀⢸⣿⡇⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠇⢸⣿⠀⣶⣶⣶⣶⣶⢸⣿⡇⠀\n" +
+                "⠀⢸⣿⣷⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣾⣿⠀⣿⣿⣿⣿⣿⢸⣿⡇⠀\n" +
+                "⠀    \uD83C\uDF54\uD835\uDC16\uD835\uDC04\uD835\uDC0B\uD835\uDC02\uD835\uDC0E\uD835\uDC0C\uD835\uDC04 to Slavic Deli\uD83C\uDF54");
+        System.out.println("\uD83D\uDED2 What would you like to order today? \uD83D\uDED2 :");
 
         while (running) {
             System.out.println("\nMenu:");
-            System.out.println("1) Pelmenich (Sandwich)");
-            System.out.println("2) Drinks (Kvas / Kompot / Mors)");
-            System.out.println("3) Sushki (Chips)");
-            System.out.println("4) Checkout");
-            System.out.println("0) Exit");
-            System.out.print("Ваш выбор: ");
+            System.out.println("1) \uD83E\uDD6A Pelmenich (Sandwich)");
+            System.out.println("2) \uD83C\uDF7A Drinks (Kvas / Kompot / Mors)");
+            System.out.println("3) \uD83E\uDD54 Sushki (Chips)");
+            System.out.println("4) \uD83E\uDDFE Checkout");
+            System.out.println("0) \uD83D\uDEAB Exit");
+            System.out.print("☆ What would you like today ☆: ");
 
             String choice = scanner.nextLine();
 
@@ -40,13 +54,13 @@ public class DeliApp {
     }
 
     private static Sandwich createSandwich(Scanner scanner) {
-        System.out.print("Bread (BORODINSKY/BLACK_RYE/WHITE/WHEAT): ");
+        System.out.print("\uD83C\uDF5E Bread (BORODINSKY/BLACK_RYE/WHITE/WHEAT): ");
         Bread bread = Bread.valueOf(scanner.nextLine().toUpperCase());
 
-        System.out.print("Size (MINI/NORMAL/XL): ");
+        System.out.print("\uD83D\uDCD0 Size (MINI/NORMAL/XL): ");
         SandwichSize size = SandwichSize.valueOf(scanner.nextLine().toUpperCase());
 
-        System.out.print("Toasted? (yes/no): ");
+        System.out.print("\uD83D\uDD25 Toasted? (yes/no): ");
         boolean toasted = scanner.nextLine().equalsIgnoreCase("yes");
 
         Sandwich sandwich = new Sandwich(bread, size, toasted);
@@ -57,12 +71,12 @@ public class DeliApp {
 
     private static Drink createDrink(Scanner scanner) {
         System.out.println("Choose Drink Type:");
-        System.out.println("1) Kvas");
-        System.out.println("2) Kompot");
-        System.out.println("3) Mors");
+        System.out.println("1) \uD83C\uDF7B Kvas");
+        System.out.println("2) \uD83C\uDF53 Kompot");
+        System.out.println("3) \uD83E\uDDC9 Mors");
         String type = scanner.nextLine();
 
-        System.out.print("Size (SMALL/MEDIUM/LARGE): ");
+        System.out.print("\uD83D\uDCD0 Size (SMALL/MEDIUM/LARGE): ");
         DrinkSize size = DrinkSize.valueOf(scanner.nextLine().toUpperCase());
 
         return switch (type) {
@@ -74,7 +88,7 @@ public class DeliApp {
     }
 
     private static Chips createChips(Scanner scanner) {
-        System.out.print("Sushki flavor (Vanilla/Honey/Poppy): ");
+        System.out.print("\uD83E\uDD54 Sushki flavor (Vanilla/Honey/Poppy): ");
         String flavor = scanner.nextLine();
         return new Chips(flavor);
     }

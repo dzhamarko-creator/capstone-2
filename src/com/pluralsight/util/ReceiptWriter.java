@@ -34,17 +34,17 @@ public class ReceiptWriter {
             // Append total to master sales ledger
             writeToMasterCSV(order.calculateTotal());
 
-            System.out.println("Чеки сохранены:");
+            System.out.println("▀▄▀▄▀▄ Чеки сохранены ▀▄▀▄▀▄:");
             System.out.println(" - " + txtFile);
             System.out.println(" - " + csvFile);
-            System.out.println(" - Added to master_sales.csv ✅");
+            System.out.println(" - ✅ Added to master_sales.csv ✅");
 
         } catch (IOException e) {
             System.out.println("Ошибка при записи чеков: " + e.getMessage());
         }
     }
 
-    // 📜 Text file version (for human-readable receipts)
+    // 📜 Text file version
     private static void writeTextReceipt(Order order, String path) throws IOException {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(path))) {
             writer.write("===== Slavic Deli Receipt =====\n");
@@ -68,7 +68,7 @@ public class ReceiptWriter {
         }
     }
 
-    // 🪙 Append total to cumulative master_sales.csv file
+    //  total to cumulative
     private static void writeToMasterCSV(double total) throws IOException {
         String path = "src/main/resources/receipts/master_sales.csv";
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(path, true))) {
@@ -77,7 +77,7 @@ public class ReceiptWriter {
         }
     }
 
-    // Automatically detect category from class name
+    // Automatically detect category
     private static String detectCategory(Product p) {
         String className = p.getClass().getSimpleName().toLowerCase();
         if (className.contains("sandwich")) return "Sandwich";
