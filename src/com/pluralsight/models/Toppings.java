@@ -11,7 +11,7 @@ public class Toppings {
             "\uD83D\uDC37 Kielbasa", "\uD83C\uDF57 Chicken", "\uD83E\uDD53 Bacon", "\uD83D\uDC16 Roast Pork"
     );
     public static final List<String> CHEESES = Arrays.asList(
-            "\uD83D\uDFE8 Bryndza", "\uD83D\uDFE8 Swiss", "\uD83E\uDDC0 Cheddar", "\uD83E\uDDC8 Tvorog"
+            "\uD83E\uDDC0 Bryndza", "\uD83E\uDDC0 Swiss", "\uD83E\uDDC0 Cheddar", "\uD83E\uDDC8 Tvorog"
     );
     public static final List<String> SAUCES = Arrays.asList(
             "\uD83C\uDF76 Smetana", "⚱\uFE0F Adjika", "\uD83E\uDDC4 Garlic Sauce", "\uD83E\uDDF4 Mustard"

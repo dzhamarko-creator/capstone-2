@@ -34,7 +34,7 @@ public class ReceiptWriter {
             // Append total to master sales ledger
             writeToMasterCSV(order.calculateTotal());
 
-            System.out.println("▀▄▀▄▀▄ Чеки сохранены ▀▄▀▄▀▄:");
+            System.out.println("▀▄▀▄▀▄ Receipts Saved ▀▄▀▄▀▄:");
             System.out.println(" - " + txtFile);
             System.out.println(" - " + csvFile);
             System.out.println(" - ✅ Added to master_sales.csv ✅");
