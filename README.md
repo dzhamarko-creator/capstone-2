@@ -39,6 +39,12 @@ _The project is organized into clean, modular classes for sandwiches, drinks, to
 7)Modular design ready for expansion
 
 
+## Interesting code in my project will be in RceiptWriter 
+
+
+      new java.io.File("src/main/resources/receipts").mkdirs();
+
+----------------------------------------------------------------
 
 
 ## ☁︎ UI MENU ☁︎
