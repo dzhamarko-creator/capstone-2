@@ -12,7 +12,7 @@ public class DeliApp {
         boolean running = true;
 
         System.out.println(
-                           "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n" +
+                           "꧁ঔৣ☬ঔৣ☬ঔৣ☬ঔৣ☬ঔঔৣ☬ঔঔৣ☬ঔঔৣ☬ঔঔৣ☬ঔৣ☬☬ঔৣ꧂\n"+
                            "⠀⠀⢠⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⡄⠀⠀\n" +
                            "⠀⠀⣿⣿⣿⣿⣿⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⢹⣿⣿⣿⣿⡟⣿⣿⣿⣿⣿⠀⠀\n" +
                            "⠀⠀⣿⣿⣿⣿⡟⢸⣿⣿⣿⣿⢹⣿⣿⣿⣿⡘⣿⣿⣿⣿⡇⢻⣿⣿⣿⣿⠀⠀\n" +
@@ -25,7 +25,8 @@ public class DeliApp {
                            "⠀⢸⣿⡇⣿⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⢸⣿⠀⠶⠶⠶⠶⠶⢸⣿⡇⠀\n" +
                            "⠀⢸⣿⡇⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠇⢸⣿⠀⣶⣶⣶⣶⣶⢸⣿⡇⠀\n" +
                            "⠀⢸⣿⣷⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣾⣿⠀⣿⣿⣿⣿⣿⢸⣿⡇⠀\n" +
-                                   "⠀    ꧁ঔৣ☬ঔৣ☬ঔৣ☬ WELCOME to Slavic Deli ঔৣ☬ঔৣ☬☬ঔৣ꧂"
+                                   "------------------------------------\n" +
+                                   "꧁ঔৣ☬ঔৣ☬ঔৣ☬ WELCOME to Slavic Deli ঔৣ☬ঔৣ☬☬ঔৣ꧂"
         );
 
         System.out.println("˚ ༘⋆\uD83D\uDC69\uD83C\uDFFB\u200D\uD83C\uDF73｡˚ What would you like to order today?˚ ༘⋆\uD83D\uDC69\uD83C\uDFFB\u200D\uD83C\uDF73｡˚");
