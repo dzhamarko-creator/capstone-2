@@ -1,0 +1,10 @@
+===== Slavic Deli Receipt =====
+Your Order:
+ - XL WHEAT Pelmenich (Toasted) | Fillings: [🌿 Dill, 🧄 Garlic Sauce, 🧀 Swiss] | $11.50
+ - Kvas (Bread Drink) (large) - $3.00
+ - Sushki (honey) - $1.50
+----------------------
+Total: $16.00
+----------------------------
+Итого: ₽16.00
+Спасибо за покупку!

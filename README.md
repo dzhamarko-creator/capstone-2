@@ -43,7 +43,7 @@ _The project is organized into clean, modular classes for sandwiches, drinks, to
 
 
       new java.io.File("src/main/resources/receipts").mkdirs();
-
+automatically creates the entire receipts folder path.
 ----------------------------------------------------------------
 
 
