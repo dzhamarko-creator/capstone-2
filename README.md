@@ -39,11 +39,11 @@ _The project is organized into clean, modular classes for sandwiches, drinks, to
 7)Modular design ready for expansion
 
 
-## Interesting code in my project will be in RceiptWriter 
+## Interesting code in my project will be in ReceiptWriter 
 
 
       new java.io.File("src/main/resources/receipts").mkdirs();
-automatically creates the entire receipts folder path.
+Prevents from crashing during file writing, and it makes my app behave like a real POS system that guarantees its storage structure before saving receipts!
 ----------------------------------------------------------------
 
 
